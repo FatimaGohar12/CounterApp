@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+}
+body{
+    background-color: rgb(246, 53, 127);
+
+}
+.container1{
+   border: 1px solid rgb(247, 231, 231);
+   width: 54%;
+    height: 397px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    flex-direction: column;
+    margin: 113px 265px;
+    box-shadow: -5px 6px 65px 6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -5px 6px 65px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 6px 65px 6px rgba(0,0,0,0.75);
+}
+
+.container1 :hover{
+   cursor: pointer;
+   
+ }
+
+
+
+.container1 h1{
+    color: rgb(246, 53, 127);
+    text-align: center;
+    text-shadow: -6px 0px 22px rgba(0,0,0,0.66);
+    font-size: 3rem;
+    
+}
+.col {
+    /* border: 1px solid black; */
+    width: 85%;
+    height: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col div {
+    /* border: 1px solid black;
+    width: 250px;
+    /* height: 164px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    text-align: center; 
+    font-size: 1.3rem;
+    text-shadow: -6px 0px 22px rgba(0,0,0,0.66);
+
+}
+.col input{
+    width: 54%;
+    height: 83px;
+    border: 1px solid rgb(251, 251, 251);
+    background-color: rgb(246, 53, 127);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+   
+    
+}
